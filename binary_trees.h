@@ -1,5 +1,15 @@
-#ifndef TREEVAR
-#define TREEVAR
+#ifndef BINARY_TREES
+#define BINARY_TREES
+
+
+#include <stdlib.h>
+#include <string.h>
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/* Data structures */
 
 /**
  * struct binary_tree_s - Binary tree node
