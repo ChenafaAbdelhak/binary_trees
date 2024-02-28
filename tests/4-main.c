@@ -3,13 +3,14 @@
 #include "../binary_trees.h"
 
 /**
- *main - Entry point
+ * main - Entry point
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	binary_tree_t * root;
+	binary_tree_t *root;
 	int ret;
 
 	root = binary_tree_node(NULL, 98);
