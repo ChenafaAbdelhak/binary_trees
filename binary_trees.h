@@ -52,15 +52,15 @@ int height(const binary_tree_t *tree);
 
 size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
-<<<<<<< HEAD
 size_t binary_tree_leaves(const binary_tree_t *tree);
-=======
 
 size_t binary_tree_size(const binary_tree_t *tree);
-<<<<<<< HEAD
->>>>>>> 194d46e0b6f7dc3f2748283943dfc3a999dc6bb3
-=======
 size_t binary_tree_leaves(const binary_tree_t *tree);
->>>>>>> 7e34490bee861106d0150eaa865c9d89ac24cf0b
+size_t binary_tree_nodes(const binary_tree_t *tree);
+int binary_tree_balance(const binary_tree_t *tree);
+int binary_tree_is_full(const binary_tree_t *tree);
+int binary_tree_is_perfect(const binary_tree_t *tree);
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 #endif
