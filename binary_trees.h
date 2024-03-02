@@ -57,6 +57,10 @@ size_t binary_tree_leaves(const binary_tree_t *tree);
 =======
 
 size_t binary_tree_size(const binary_tree_t *tree);
+<<<<<<< HEAD
 >>>>>>> 194d46e0b6f7dc3f2748283943dfc3a999dc6bb3
+=======
+size_t binary_tree_leaves(const binary_tree_t *tree);
+>>>>>>> 7e34490bee861106d0150eaa865c9d89ac24cf0b
 
 #endif
